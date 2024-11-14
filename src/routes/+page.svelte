@@ -146,14 +146,6 @@
 		>
 			<Label for="lowPassFrequency">Low Pass Frequency: {lowPassFrequency}</Label>
 			<Range id="lowPassFrequency" min="500" max="3000" bind:value={lowPassFrequency} />
-			<!-- <input
-				type="range"
-				id="lowPassFrequency"
-				min="500"
-				max="3000"
-				bind:value={lowPassFrequency}
-				on:input={updateFilters}
-			/> -->
 		</div>
 
 		<div class="control">
@@ -165,14 +157,6 @@
 				bind:value={highPassFrequency}
 				on:input={updateFilters}
 			/>
-			<!-- <input
-				type="range"
-				id="highPassFrequency"
-				min="50"
-				max="1000"
-				bind:value={highPassFrequency}
-				on:input={updateFilters}
-			/> -->
 		</div>
 
 		<div class="control">
@@ -185,16 +169,6 @@
 				bind:value={distortionAmount}
 				on:input={updateDistortion}
 			/>
-
-			<!-- <input
-				type="range"
-				id="distortionAmount"
-				min="10.0"
-				max="20.0"
-				step="0.5"
-				bind:value={distortionAmount}
-				on:input={updateDistortion}
-			/> -->
 		</div>
 
 		<div class="control">
@@ -206,14 +180,6 @@
 				bind:value={compressionThreshold}
 				on:input={updateCompressor}
 			/>
-			<!-- <input
-				type="range"
-				id="compressionThreshold"
-				min="-50"
-				max="0"
-				bind:value={compressionThreshold}
-				on:input={updateCompressor}
-			/> -->
 		</div>
 
 		<div class="control">

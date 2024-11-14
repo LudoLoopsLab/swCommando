@@ -192,29 +192,11 @@
 				bind:value={delayTime}
 				on:input={updateDelay}
 			/>
-			<!-- <input
-				type="range"
-				id="delayTime"
-				min="0.01"
-				max="0.1"
-				step="0.01"
-				bind:value={delayTime}
-				on:input={updateDelay}
-			/> -->
 		</div>
 
 		<div class="control">
 			<Label for="pitch">Pitch (Grave - Aigu): {pitch}</Label>
 			<Range id="pitch" min="0.5" max="2" step="0.1" bind:value={pitch} on:input={updatePitch} />
-			<!-- <input
-				type="range"
-				id="pitch"
-				min="0.5"
-				max="2"
-				step="0.1"
-				bind:value={pitch}
-				on:input={updatePitch}
-			/> -->
 		</div>
 	</div>
 	<Button
